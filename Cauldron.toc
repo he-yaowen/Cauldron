@@ -11,5 +11,6 @@ etc\config.lua
 lib\logging.lua
 
 lib\event.lua
+etc\events.lua
 
 main.lua
