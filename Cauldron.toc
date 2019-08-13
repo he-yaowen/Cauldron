@@ -6,6 +6,7 @@
 
 lib\global.lua
 lib\config.lua
+etc\config.lua
 
 lib\logging.lua
 
