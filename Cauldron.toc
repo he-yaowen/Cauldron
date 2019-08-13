@@ -10,4 +10,6 @@ etc\config.lua
 
 lib\logging.lua
 
+lib\event.lua
+
 main.lua
