@@ -13,4 +13,6 @@ lib\logging.lua
 lib\event.lua
 etc\events.lua
 
+lib\recipe.lua
+
 main.lua
