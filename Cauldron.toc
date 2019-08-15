@@ -16,5 +16,6 @@ etc\events.lua
 lib\recipe.lua
 
 lib\slashcmd.lua
+etc\slashcmds.lua
 
 main.lua
