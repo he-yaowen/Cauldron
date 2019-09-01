@@ -27,7 +27,7 @@ frame:SetScript("OnEvent", function()
 
         Cauldron_RaiseEvent("RECIPE_LOADED", recipe)
 
-        if recipe.enable then
+        if Cauldron_RaiseEvent("RECIPE_QUERY_ENABLE", recipe) then
             Cauldron_EnableRecipe(recipe)
         end
     end

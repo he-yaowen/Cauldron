@@ -21,7 +21,7 @@ Cauldron_RegisterEvent("RECIPE_LOADED", function()
 end)
 
 Cauldron_RegisterEvent("RECIPE_QUERY_ENABLE", function(_, recipe)
-    return true
+    return recipe.enable
 end)
 
 Cauldron_RegisterEvent("RECIPE_ENABLE", function()
